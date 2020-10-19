@@ -194,6 +194,12 @@
         <dependency>
             <groupId>com.idega.block.egov</groupId>
             <artifactId>is.idega.idegaweb.member</artifactId>
+            <exclusions>
+            	<exclusion>
+            		<groupId>poi</groupId>
+            		<artifactId>poi</artifactId>
+            	</exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.idega.block.egov</groupId>
