@@ -237,6 +237,10 @@
                     <groupId>org.bouncycastle</groupId>
                     <artifactId>bcprov-jdk15on</artifactId>
                 </exclusion>
+                <exclusion>
+                	<groupId>poi</groupId>
+                	<artifactId>poi</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         
@@ -248,6 +252,12 @@
         <dependency>
             <groupId>com.idega.block.private</groupId>
             <artifactId>is.idega.idegaweb.egov.health.directorate</artifactId>
+            <exclusions>
+            	<exclusion>
+            		<groupId>poi</groupId>
+            		<artifactId>poi</artifactId>
+            	</exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.idega.block.private</groupId>
